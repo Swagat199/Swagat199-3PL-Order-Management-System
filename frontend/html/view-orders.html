@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Orders</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>All Orders</h1>
+
+        <div class="search-container">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search by Product Name">
+
+            <button
+                class="btn"
+                onclick="searchOrders()">
+                Search
+            </button>
+
+            <button
+                class="btn"
+                onclick="loadOrders()">
+                Show All
+            </button>
+
+        </div>
+        
+
+        <table>
+            <thead>
+
+                <tr>
+                    <th>Order ID</th>
+                    <th>Customer</th>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="tableBody">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <script src="../javascript/viewOrders.js"></script>
+
+</body>
+</html>

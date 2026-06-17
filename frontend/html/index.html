@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3PL Dashboard</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+<div class="navbar">
+    <h1>3PL Order Management System</h1>
+</div>
+
+<div class="container">
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Total Orders</h3>   
+            <h2 id="totalOrders">0</h2>
+        </div>
+
+        <div class="card">
+            <h3>Pending</h3>
+            <h2 id="pendingOrders">0</h2>
+        </div>
+
+        <div class="card">
+            <h3>Shipped</h3>
+            <h2 id="shippedOrders">0</h2>
+        </div>
+
+        <div class="card">
+            <h3>Delivered</h3>
+            <h2 id="deliveredOrders">0</h2>
+        </div>
+
+    </div>
+
+    <br>
+
+    <div class="button-container">
+        <button type="button" onclick="location.href='create-order.html'">Create Order</button>
+        <button type="button" onclick="location.href='view-orders.html'">View Orders</button>
+    </div>
+
+</div>
+
+<script src="../javascript/index.js"></script>
+
+</body>
+</html>

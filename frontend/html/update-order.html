@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Order</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Update Order</h1>
+
+    <form id="updateForm">
+
+        <input
+            type="text"
+            id="product_name"
+            placeholder="Product Name"
+            required>
+
+        <input
+            type="number"
+            id="quantity"
+            placeholder="Quantity"
+            required>
+
+        <textarea
+            id="delivery_address"
+            placeholder="Delivery Address"
+            required>
+        </textarea>
+
+        <input
+            type="date"
+            id="order_date"
+            required>
+
+        <input
+            type="date"
+            id="delivery_date"
+            required>
+
+        <select id="status">
+
+            <option value="Pending">Pending</option>
+            <option value="Confirmed">Confirmed</option>
+            <option value="Packed">Packed</option>
+            <option value="Shipped">Shipped</option>
+            <option value="Delivered">Delivered</option>
+            <option value="Cancelled">Cancelled</option>
+
+        </select>
+
+        <button class="btn">
+            Update Order
+        </button>
+
+    </form>
+
+</div>
+
+<script src="../javascript/updateOrder.js"></script>
+
+</body>
+</html>

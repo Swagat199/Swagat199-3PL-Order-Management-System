@@ -1,0 +1,217 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Trebuchet MS",sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+}
+
+.container{
+    width:90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background:white;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 2px 30px rgba(255, 5, 5, 0.1);
+}
+
+.createbtn{
+    display: block;
+    width: 200px;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background: #2563eb;
+    color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container h1{
+    text-align:center;
+    color:#333;
+    margin-top:-1px;
+}
+
+
+#orderForm{
+    margin-top:-10px;
+}
+
+#orderForm input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.search-container
+{
+    margin-top:25px;
+    
+}
+
+.search-container input{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.search-container button{
+     width: 120px;
+}
+.navbar{
+    background:#1f2937;
+    color:white;
+    padding:20px;
+}
+
+.navbar h1{
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    margin-top:40px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    width:23%;
+    text-align:center;
+    box-shadow:0px 2px 8px rgba(0,0,0,0.2);
+    line-height:30px;
+    border-top: 4px solid #3b82f6;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #1f2937;
+}
+
+.card h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.btn{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:10px 25px;
+    border-radius:5px;
+    cursor:pointer;
+    width: auto;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background:#1e40af;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.button-container button {
+    width: 180px;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2f64e0;
+    color: white;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: #234fb5;
+}
+table{
+    width:100%;
+    margin-top:30px;
+    border-collapse:collapse;
+    background:white;
+}
+
+table th,
+table td{
+    border:1px solid #ddd;
+    padding:12px;
+    text-align:center;
+}
+
+table th{
+    background:#2563eb;
+    color:white;
+}
+
+form{
+    background:white;
+    padding:30px;
+    margin-top:30px;
+    border-radius:10px;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-bottom:20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.field-title {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+}
+
+.actions button{
+    margin-right: 8px;
+    padding: 6px 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(160, 49, 49);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.actions button:hover{
+    background: rgb(160, 49, 49);
+    color: white;
+}
+
+#updateForm{
+    margin-top:5px;
+}
