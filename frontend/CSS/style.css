@@ -55,14 +55,28 @@ select {
 .search-container
 {
     margin-top:25px;
-    
+    position: relative;
 }
 
 .search-container input{
     border: 2px solid black;
     border-radius: 5px;
+    padding: 10px 35px 10px 12px;
+}
+#clearSearch {
+  position: absolute;
+  right:30px;
+  top:18%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 16px;
+  color: gray;
+  display: none;
 }
 
+#clearSearch:hover {
+  color: red;
+}
 .search-container button{
      width: 120px;
 }
@@ -84,7 +98,7 @@ select {
 }
 
 .card{
-    background:white;
+    background:rgb(228, 228, 228);
     padding:30px;
     border-radius:10px;
     width:23%;
@@ -202,14 +216,28 @@ textarea{
     border: 1px solid black;
     border-radius: 5px;
     cursor: pointer;
-    color: rgb(160, 49, 49);
     font-size: 14px;
     font-weight: 500;
 }
 
-.actions button:hover{
-    background: rgb(160, 49, 49);
+
+
+#editBtn {
+    background-color:#2563EB;
     color: white;
+}
+
+#editBtn:hover {
+    background-color: darkblue;
+}
+
+#deleteBtn {
+    background: #ff4343;
+    color: rgb(36, 31, 31);
+}
+
+#deleteBtn:hover {
+    background-color: rgb(255, 4, 4);
 }
 
 #updateForm{

@@ -17,8 +17,12 @@
             <input
                 type="text"
                 id="searchInput"
-                placeholder="Search by Product Name">
-
+                placeholder="Search by any field..."
+                oninput="searchOrders()"
+            />
+            <span id="clearSearch" onclick="clearSearchInput()">
+                ❌
+            </span>
             <button
                 class="btn"
                 onclick="searchOrders()">
@@ -39,7 +43,7 @@
 
                 <tr>
                     <th>Order ID</th>
-                    <th>Customer</th>
+                    <th>Company Name</th>
                     <th>Product</th>
                     <th>Quantity</th>
                     <th>Status</th>
